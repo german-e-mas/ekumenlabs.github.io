@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="../stylesheets/main.css" rel="stylesheet" type="text/css" />
 
-      <title>Intelligent robots for the everyday life - Ekumen</title>
+      <title>Interfacing with robots, in concert - Ekumen</title>
       <meta content="We are people from different parts of the planet to build technology for the world." name="description" />
   </head>
   <body class="projects projects_yujin">
@@ -41,19 +41,25 @@
 
       <div class="content container">
 
-    <h1>Intelligent robots for the everyday life</h1>
+    <h1>Interfacing with robots, in concert</h1>
 
-    <p>Established in 1988, <a href="http://en.yujinrobot.com" target="_blank">Yujin Robots</a> is a Seoul based company specialized 
-in research and development of intelligent-type <span class="label label-info"><a href="tags/service-robots.html">service robots</a></span> to add 
-convenience to everyday life.</p>
+    <p>Ekumen assisted <a href="http://en.yujinrobot.com" target="_blank">Yujin Robots</a> in extending
+the capabilities of the very ambitious <a href="http://www.robotconcert.org/" target="_black">Robotics in Concert</a>
+project with a high-level authoring interface and the ability to access robotics capabilities from the Internet.</p>
 
 <!-- this string indicates where the article sohuld be cut -->
 <p></p>
 
-<p>Here at Ekumen we're working with <span class="label label-info"><a href="tags/python.html">Python</a></span> to improve their <span class="label label-info"><a href="tags/multi-robot.html">multi robot</a></span> teleoperation, 
-adding to the system the possibility to connect through a proxy that allow to control 
-robots remotely, while getting a live video streaming.</p>
+<p>On an initial engagement, Ekumen used its expertise on large-scale software projects to assist in
+the initial stages of the development of a social-based authoring interface for <span class="label label-info"><a href="tags/multi-robot.html">multi robot</a></span> systems.
+An initial state-of-the art <span class="label label-info"><a href="tags/web-interface.html">Web interface</a></span> was architected and prototyped using <span class="label label-info"><a href="tags/meteorjs.html">MeteorJs</a></span>, after which
+Yujin's team took over the development of the project with the guidance of Ekumen's experts.</p>
 
+<p>Later, Ekumen took the lead to implement a proxy-based mechanism based on rosbridge and <span class="label label-info"><a href="tags/robot-web-tools.html">Robot Web Tools</a></span>
+to allow ROS clients in the Internet to connect to ROS and <a href="http://www.robotconcert.org/" target="_black">ROCON</a>
+systems which are running behind firewalls without the need for port-forwarding.
+Additional prototyped features included the ability to proxy HTTP video streams, managing connections to
+multiple concerts and basic security with password-based authentication and role-based authorization.</p>
 
     <br>
     <a href="./">Go back to Projects</a>
