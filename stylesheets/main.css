@@ -8301,7 +8301,7 @@ button.close {
 }
 .work .work-panel:before, .work .work-panel:active:before, .work .work-panel:visited:before, .work .work-panel:hover:before {
   position: absolute;
-  opacity: 0.3;
+  opacity: 0;
   content: '';
   background: linear-gradient(120deg, #96639c, transparent), linear-gradient(180deg, transparent, black);
   display: block;
@@ -8313,7 +8313,7 @@ button.close {
   transition: opacity 500ms;
 }
 .work .work-panel:hover::before, .work .work-panel:active:hover::before, .work .work-panel:visited:hover::before, .work .work-panel:hover:hover::before {
-  opacity: 0.1;
+  opacity: 0.3;
 }
 .work .work-panel.work-real-time {
   background-image: url("../images/earth2.jpg");
@@ -8536,6 +8536,9 @@ button.close {
   width: 200px;
 }
 
+.projects h2 {
+  font-size: 1.5em;
+}
 .projects h2 a {
   color: #96639c;
 }
