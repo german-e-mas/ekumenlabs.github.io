@@ -151,6 +151,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://www.ekumenlabs.com/projects/google.html</loc>
+    <lastmod>2016-04-14T00:00:00-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://www.ekumenlabs.com/projects/osrf.html</loc>
     <lastmod>2016-04-14T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
