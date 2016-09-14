@@ -29,3 +29,24 @@ li a {
   margin-top: 2em;
   margin-bottom: 1em;
 }
+
+.roboticist-job .top-right-image {
+  background-size: cover;
+  background-position: center;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  vertical-align: middle;
+  background: url("/images/jobs/gazebo.jpg");
+  height: 15em;
+  width: 23em;
+}
+.roboticist-job .middle-left-image {
+  background-size: cover;
+  background-position: center;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  vertical-align: middle;
+  background: url("/images/jobs/work.jpg");
+  height: 14em;
+  width: 21em;
+}
